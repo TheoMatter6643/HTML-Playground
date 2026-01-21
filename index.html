@@ -5,7 +5,29 @@
 h1 {color:#5F8F72}
 h3 {color:#5F8F72}
 p {color: #5F8F72}
-a {color: #C2A878}
+a:link {
+  color: #C2A878;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #333333 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C2A878;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #7A9EB1;
+  background-color: transparent;
+  text-decoration: underline;
+}
 </style>
 </head>
 <body style="background-color: #F7F5F2; text-align: center;">
@@ -77,9 +99,9 @@ At the old forsaken bough
 Where I cling.
 </pre>
 <p> Want to contact me for some reason?</p>
-<a href="mailto:theomatter2@gmail.com" target="_blank">
+<a href="mailto:theomatter2@gmail.com" title="Why did I just give you my personal information?">target="_blank">
 <button style="display:inline-block; padding: 10px 20px; background: #7A9EB1; color: #333333;">Here's my email!</button>
 </a>
-<button onclick="background-color: red" style="display:inline-block; padding: 10px 20px; background: #7A9EB1; color: #333333;">Party!"</button>
+<!-- <button onclick="" style="display:inline-block; padding: 10px 20px; background: #7A9EB1; color: #333333;">Party!</button> -->
 </body>
 </html>
